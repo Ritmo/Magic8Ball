@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED948D9619800113002F7ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED948D9519800113002F7ADE /* Foundation.framework */; };
+		ED948D9819800113002F7ADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED948D9719800113002F7ADE /* CoreGraphics.framework */; };
+		ED948D9A19800113002F7ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED948D9919800113002F7ADE /* UIKit.framework */; };
+		ED948DA019800113002F7ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED948D9E19800113002F7ADE /* InfoPlist.strings */; };
+		ED948DA219800113002F7ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED948DA119800113002F7ADE /* main.m */; };
+		ED948DA619800113002F7ADE /* KPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED948DA519800113002F7ADE /* KPAppDelegate.m */; };
+		ED948DA919800113002F7ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED948DA719800113002F7ADE /* Main.storyboard */; };
+		ED948DAC19800113002F7ADE /* KPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED948DAB19800113002F7ADE /* KPViewController.m */; };
+		ED948DAE19800113002F7ADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED948DAD19800113002F7ADE /* Images.xcassets */; };
+		ED948DB519800114002F7ADE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED948DB419800114002F7ADE /* XCTest.framework */; };
+		ED948DB619800114002F7ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED948D9519800113002F7ADE /* Foundation.framework */; };
+		ED948DB719800114002F7ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED948D9919800113002F7ADE /* UIKit.framework */; };
+		ED948DBF19800114002F7ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED948DBD19800114002F7ADE /* InfoPlist.strings */; };
+		ED948DC119800114002F7ADE /* CrystallBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED948DC019800114002F7ADE /* CrystallBallTests.m */; };
+		ED948DCC198090C4002F7ADE /* KPMagicBall.m in Sources */ = {isa = PBXBuildFile; fileRef = ED948DCB198090C4002F7ADE /* KPMagicBall.m */; };
+		EDADC8F51981819100CF99C5 /* magic_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDADC8F41981819100CF99C5 /* magic_ball.mp3 */; };
+		EDADC8F7198181DA00CF99C5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDADC8F6198181DA00CF99C5 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED948DB819800114002F7ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED948D8A19800113002F7ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED948D9119800113002F7ADE;
+			remoteInfo = CrystallBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED948D9219800113002F7ADE /* MagicBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED948D9519800113002F7ADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED948D9719800113002F7ADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		ED948D9919800113002F7ADE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED948D9D19800113002F7ADE /* MagicBall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicBall-Info.plist"; sourceTree = "<group>"; };
+		ED948D9F19800113002F7ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED948DA119800113002F7ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED948DA319800113002F7ADE /* MagicBall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicBall-Prefix.pch"; sourceTree = "<group>"; };
+		ED948DA419800113002F7ADE /* KPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAppDelegate.h; sourceTree = "<group>"; };
+		ED948DA519800113002F7ADE /* KPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAppDelegate.m; sourceTree = "<group>"; };
+		ED948DA819800113002F7ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED948DAA19800113002F7ADE /* KPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPViewController.h; sourceTree = "<group>"; };
+		ED948DAB19800113002F7ADE /* KPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPViewController.m; sourceTree = "<group>"; };
+		ED948DAD19800113002F7ADE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED948DB319800114002F7ADE /* MagicBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED948DB419800114002F7ADE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED948DBC19800114002F7ADE /* CrystallBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystallBallTests-Info.plist"; sourceTree = "<group>"; };
+		ED948DBE19800114002F7ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED948DC019800114002F7ADE /* CrystallBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystallBallTests.m; sourceTree = "<group>"; };
+		ED948DCA198090C4002F7ADE /* KPMagicBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPMagicBall.h; sourceTree = "<group>"; };
+		ED948DCB198090C4002F7ADE /* KPMagicBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPMagicBall.m; sourceTree = "<group>"; };
+		EDADC8F41981819100CF99C5 /* magic_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = magic_ball.mp3; sourceTree = "<group>"; };
+		EDADC8F6198181DA00CF99C5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED948D8F19800113002F7ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDADC8F7198181DA00CF99C5 /* AudioToolbox.framework in Frameworks */,
+				ED948D9819800113002F7ADE /* CoreGraphics.framework in Frameworks */,
+				ED948D9A19800113002F7ADE /* UIKit.framework in Frameworks */,
+				ED948D9619800113002F7ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED948DB019800114002F7ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED948DB519800114002F7ADE /* XCTest.framework in Frameworks */,
+				ED948DB719800114002F7ADE /* UIKit.framework in Frameworks */,
+				ED948DB619800114002F7ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED948D8919800113002F7ADE = {
+			isa = PBXGroup;
+			children = (
+				ED948D9B19800113002F7ADE /* CrystallBall */,
+				ED948DBA19800114002F7ADE /* CrystallBallTests */,
+				ED948D9419800113002F7ADE /* Frameworks */,
+				ED948D9319800113002F7ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED948D9319800113002F7ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED948D9219800113002F7ADE /* MagicBall.app */,
+				ED948DB319800114002F7ADE /* MagicBallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED948D9419800113002F7ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDADC8F6198181DA00CF99C5 /* AudioToolbox.framework */,
+				ED948D9519800113002F7ADE /* Foundation.framework */,
+				ED948D9719800113002F7ADE /* CoreGraphics.framework */,
+				ED948D9919800113002F7ADE /* UIKit.framework */,
+				ED948DB419800114002F7ADE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED948D9B19800113002F7ADE /* CrystallBall */ = {
+			isa = PBXGroup;
+			children = (
+				ED948DA419800113002F7ADE /* KPAppDelegate.h */,
+				EDADC8F41981819100CF99C5 /* magic_ball.mp3 */,
+				ED948DA519800113002F7ADE /* KPAppDelegate.m */,
+				ED948DA719800113002F7ADE /* Main.storyboard */,
+				ED948DAA19800113002F7ADE /* KPViewController.h */,
+				ED948DAB19800113002F7ADE /* KPViewController.m */,
+				ED948DCA198090C4002F7ADE /* KPMagicBall.h */,
+				ED948DCB198090C4002F7ADE /* KPMagicBall.m */,
+				ED948DAD19800113002F7ADE /* Images.xcassets */,
+				ED948D9C19800113002F7ADE /* Supporting Files */,
+			);
+			path = CrystallBall;
+			sourceTree = "<group>";
+		};
+		ED948D9C19800113002F7ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED948D9D19800113002F7ADE /* MagicBall-Info.plist */,
+				ED948D9E19800113002F7ADE /* InfoPlist.strings */,
+				ED948DA119800113002F7ADE /* main.m */,
+				ED948DA319800113002F7ADE /* MagicBall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED948DBA19800114002F7ADE /* CrystallBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED948DC019800114002F7ADE /* CrystallBallTests.m */,
+				ED948DBB19800114002F7ADE /* Supporting Files */,
+			);
+			path = CrystallBallTests;
+			sourceTree = "<group>";
+		};
+		ED948DBB19800114002F7ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED948DBC19800114002F7ADE /* CrystallBallTests-Info.plist */,
+				ED948DBD19800114002F7ADE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED948D9119800113002F7ADE /* MagicBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED948DC419800114002F7ADE /* Build configuration list for PBXNativeTarget "MagicBall" */;
+			buildPhases = (
+				ED948D8E19800113002F7ADE /* Sources */,
+				ED948D8F19800113002F7ADE /* Frameworks */,
+				ED948D9019800113002F7ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicBall;
+			productName = CrystallBall;
+			productReference = ED948D9219800113002F7ADE /* MagicBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED948DB219800114002F7ADE /* MagicBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED948DC719800114002F7ADE /* Build configuration list for PBXNativeTarget "MagicBallTests" */;
+			buildPhases = (
+				ED948DAF19800114002F7ADE /* Sources */,
+				ED948DB019800114002F7ADE /* Frameworks */,
+				ED948DB119800114002F7ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED948DB919800114002F7ADE /* PBXTargetDependency */,
+			);
+			name = MagicBallTests;
+			productName = CrystallBallTests;
+			productReference = ED948DB319800114002F7ADE /* MagicBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED948D8A19800113002F7ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kirill Pahnev";
+				TargetAttributes = {
+					ED948DB219800114002F7ADE = {
+						TestTargetID = ED948D9119800113002F7ADE;
+					};
+				};
+			};
+			buildConfigurationList = ED948D8D19800113002F7ADE /* Build configuration list for PBXProject "MagicBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED948D8919800113002F7ADE;
+			productRefGroup = ED948D9319800113002F7ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED948D9119800113002F7ADE /* MagicBall */,
+				ED948DB219800114002F7ADE /* MagicBallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED948D9019800113002F7ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED948DAE19800113002F7ADE /* Images.xcassets in Resources */,
+				ED948DA019800113002F7ADE /* InfoPlist.strings in Resources */,
+				EDADC8F51981819100CF99C5 /* magic_ball.mp3 in Resources */,
+				ED948DA919800113002F7ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED948DB119800114002F7ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED948DBF19800114002F7ADE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED948D8E19800113002F7ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED948DAC19800113002F7ADE /* KPViewController.m in Sources */,
+				ED948DA219800113002F7ADE /* main.m in Sources */,
+				ED948DA619800113002F7ADE /* KPAppDelegate.m in Sources */,
+				ED948DCC198090C4002F7ADE /* KPMagicBall.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED948DAF19800114002F7ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED948DC119800114002F7ADE /* CrystallBallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED948DB919800114002F7ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED948D9119800113002F7ADE /* MagicBall */;
+			targetProxy = ED948DB819800114002F7ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED948D9E19800113002F7ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED948D9F19800113002F7ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED948DA719800113002F7ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED948DA819800113002F7ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED948DBD19800114002F7ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED948DBE19800114002F7ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED948DC219800114002F7ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED948DC319800114002F7ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED948DC519800114002F7ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystallBall/MagicBall-Prefix.pch";
+				INFOPLIST_FILE = "CrystallBall/MagicBall-Info.plist";
+				PRODUCT_NAME = MagicBall;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED948DC619800114002F7ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystallBall/MagicBall-Prefix.pch";
+				INFOPLIST_FILE = "CrystallBall/MagicBall-Info.plist";
+				PRODUCT_NAME = MagicBall;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED948DC819800114002F7ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrystallBall.app/CrystallBall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystallBall/CrystallBall-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrystallBallTests/CrystallBallTests-Info.plist";
+				PRODUCT_NAME = MagicBallTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED948DC919800114002F7ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrystallBall.app/CrystallBall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystallBall/CrystallBall-Prefix.pch";
+				INFOPLIST_FILE = "CrystallBallTests/CrystallBallTests-Info.plist";
+				PRODUCT_NAME = MagicBallTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED948D8D19800113002F7ADE /* Build configuration list for PBXProject "MagicBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED948DC219800114002F7ADE /* Debug */,
+				ED948DC319800114002F7ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED948DC419800114002F7ADE /* Build configuration list for PBXNativeTarget "MagicBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED948DC519800114002F7ADE /* Debug */,
+				ED948DC619800114002F7ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED948DC719800114002F7ADE /* Build configuration list for PBXNativeTarget "MagicBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED948DC819800114002F7ADE /* Debug */,
+				ED948DC919800114002F7ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED948D8A19800113002F7ADE /* Project object */;
+}
